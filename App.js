@@ -1,12 +1,14 @@
 import { SafeAreaView, Text, StyleSheet, ScrollView } from 'react-native'
 import React from 'react'
 import FlatCard from './components/FlatCard.js'
+import ElevatedCards from './components/ElevatedCards.js'
 
 const App = () => {
   return (
     <SafeAreaView>
         <ScrollView>
         <FlatCard/>
+        <ElevatedCards/>
         </ScrollView>
     </SafeAreaView>
   )
