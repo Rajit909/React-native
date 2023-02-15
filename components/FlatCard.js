@@ -16,6 +16,12 @@ const FlatCard = () => {
         <View style={[styles.card, styles.cardThree]}>
           <Text>Green</Text>
         </View>
+        <View style={[styles.card, styles.cardFour]}>
+          <Text>Green</Text>
+        </View>
+        <View style={[styles.card, styles.cardFive]}>
+          <Text>Green</Text>
+        </View>
       </View>
     </View>
   )
@@ -41,10 +47,11 @@ const styles = StyleSheet.create({
   card:{
     flex: 1,
     justifyContent: 'center',
-    alignContent: 'center',
+    alignItems: 'center',
     width: 100,
     height: 100,
-    borderRadius: 8,
+    borderRadius: 4,
+    margin: 4
   },
   cardOne:{
     backgroundColor: 'red'
@@ -54,5 +61,11 @@ const styles = StyleSheet.create({
   },
   cardThree:{
     backgroundColor: 'green'
-  }
+  },
+  cardFour:{
+    backgroundColor: 'pink'
+  },
+  cardFive:{
+    backgroundColor: 'gray'
+  },
 });
