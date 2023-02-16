@@ -8,10 +8,16 @@ const FancyCard = () => {
     <View style={[styles.card, styles.cardElevated]}>
     <Image
     source={{
-        uri:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVnPZ4LMkD727cU9qaxTpd0P7rvQcUR84Rt5-Z-FUZug&s'
+        uri:'https://www.holidify.com/images/bgImages/AGRA.jpg'
     }}
     style={styles.cardImage}
     />
+    <View style={styles.cardBody}>
+        <Text style={styles.cardTitle}>Taj-Mahal</Text>
+        <Text style={styles.cardLable}>Tourist attractions</Text>
+        <Text style={styles.cardDescription}>Located on the banks of River Yamuna in Uttar Pradesh, Agra is a popular tourist destination as it is home to one of the 7 wonders of the world, the Taj Mahal.</Text>
+        <Text style={styles.cardFooter}>20 min away</Text>
+    </View>
     </View>
     </View>
   )
@@ -35,5 +41,20 @@ const styles = StyleSheet.create({
         width: 350,
         height:200,
         marginLeft: 4  
+    },
+    cardBody: {
+        alignItems: 'center'
+    },
+    cardTitle:{
+
+    },
+    cardLable: {
+
+    },
+    cardDescription:{
+
+    },
+    cardFooter: {
+
     }
 })
