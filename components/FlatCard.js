@@ -4,8 +4,8 @@ import React from 'react'
 const FlatCard = () => {
   return (
     
-    <View style={styles.headingText}>
-      <Text>Flat Card </Text>
+    <View >
+      <Text style={styles.headingText}>Flat Card </Text>
       <View style={styles.container}>
         <View style={[styles.card, styles.cardOne]}>
           <Text>Red</Text>
