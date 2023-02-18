@@ -8,9 +8,9 @@ import ContactList from './components/ContactList.js'
 
 const App = () => {
   return (
+    
     <SafeAreaView>
         <ScrollView>
-
           <FlatCard/>
           <ElevatedCards/>
           <FancyCard/>
