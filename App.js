@@ -129,7 +129,6 @@ export default function App() {
           style={styles.input}
           onChangeText={text => setEnteredTask(text)}
           value={enteredTask}
-          
         />
         <Button title="Add" onPress={addTaskHandler} />
       </View>
